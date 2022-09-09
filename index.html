@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Busca CPF</title>
+	<link rel="stylesheet" href="./style/style.css">
+	<script src="./main.js" defer></script>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>Busca CEP</h1>
+		</header>
+		<main>
+			<div id="cep_input">
+				<label for="cep-request">
+					<input id="cep-request" type="text" autocomplete="postal-code" maxlength="9" placeholder="ex.: 01028-020">
+				</label>
+			</div>
+			<div id="cep-result" style="display: none">
+				<ul>
+					<li id="logradouro">
+						<h1>Logradouro</h1>
+						<p></p>
+					</li>
+					<li id="complemento">
+					    <h1>Complemento</h1>
+					    <p></p>
+					</li>
+					<li id="localidade">
+					    <h1>Localidade</h1>
+					    <p></p>
+					</li>
+					<li id="bairro">
+					    <h1>Bairro</h1>
+					    <p></p>
+					</li>
+					<li id="uf">
+					    <h1>UF</h1>
+					    <p></p>
+					</li>
+					<li id="ddd">
+					    <h1>DDD</h1>
+					    <p></p>
+					</li>
+				</ul>
+			</div>
+		</main>
+	</div>
+</body>
+</html>
